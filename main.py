@@ -7,7 +7,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.storage.memory import MemoryStorage
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-from token import TOKEN
+from env import TOKEN
 from leetcode_services import is_solve_today, get_count_solved_problems
 
 BOT_TOKEN = TOKEN
